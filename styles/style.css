@@ -279,3 +279,57 @@ text-align: left;
 
 
 }
+
+
+/* portfolio section starts here----------------- */
+.portfolio-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    min-height: 1160px;
+    
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+
+.portfolio-text-content h5{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+
+}
+.portfolio-text-content h2{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 22px;
+
+}
+.portfolio-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+margin-bottom: 48px;
+
+}
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.item{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    
+}
