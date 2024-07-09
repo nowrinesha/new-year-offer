@@ -62,7 +62,40 @@ body{
     width: 800px;
     height: 800px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 90px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.second-section-content h1{
+    margin-bottom: 48px;
+    Font-weight:700px;
+    font-size: 80px;
+    color: rgb(255, 0, 0);
+}
+.second-section-content p{
+    Font-weight: 500px;
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+.second-section-content h3{
+    color: rgb(7, 2, 17);
+    margin-bottom: 48px;
+    Font-weight:700px;
+    font-size: 50px;
+    
+}
+.second-section-img-container{
+    border: 1px black;
+    border-style: dashed;
+}
+.second-section-img-container img{
+    width: 100%;
+    height: 100%;
+
 }
